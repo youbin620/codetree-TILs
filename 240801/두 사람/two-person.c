@@ -7,13 +7,8 @@ int main() {
     scanf("%d %c",&o_1,&s_1);
     scanf("%d %c",&o_2,&s_2);
 
-    if(o_1 >= 19 || o_2 >= 19){
-        if(s_1 == 'M' || s_2 == 'M'){
-            printf("1");
-        }
-        else{
-            printf("0");
-        }
+    if((o_1 >= 19 && s_1 == 'M')||(o_2 >= 19 && s_2 == 'M')){
+        printf("1");
     }
     else{
         printf("0");

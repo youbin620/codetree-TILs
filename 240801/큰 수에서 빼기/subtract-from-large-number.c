@@ -7,5 +7,7 @@ int main() {
     if(a<b){
         printf("%d",b-a);
     }
+    else
+        printf("%d",a-b);
     return 0;
 }

@@ -18,8 +18,11 @@ int main() {
     else if(a>=c){
         printf("%d",a);
     }
-    else{
+    else if(b>=c){
         printf("%d",c);
+    }
+    else{
+        printf("%d",b);
     }
     return 0;
 }

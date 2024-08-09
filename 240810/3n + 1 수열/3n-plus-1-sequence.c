@@ -1,10 +1,11 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main() {
     int n, cnt=0;
     scanf("%d",&n);
 
-    while(1){
+    while(true){
         if(n%2==0){
             n/=2;
         }

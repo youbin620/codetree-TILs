@@ -6,7 +6,7 @@ int main() {
     while(1){
         scanf("%d",&n);
 
-        if(n/10 >= 3 || n/10 == 1){
+        if(n<20||n>29){
             break;
         }
         sum+=n;

@@ -13,8 +13,8 @@ int main() {
             continue;
         }
         printf("%d\n",n/2);
-        
-        if(cnt == 3){
+
+        if(cnt >= 3){
             break;
         }
     }

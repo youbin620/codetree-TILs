@@ -11,7 +11,7 @@ int main() {
             satisfied = true;
         }
     }
-    if(satisfied = true){
+    if(satisfied == true){
         printf("C");
     }
     else{

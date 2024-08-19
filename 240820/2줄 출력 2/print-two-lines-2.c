@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    printf("Do you know kimchi?\n");
+    printf("Do you know Kimchi?\n");
     printf("My Favorite Korean Food Is Kimchi!");
     return 0;
 }

@@ -13,7 +13,7 @@ int main() {
         sum_value += arr[i];
         cnt++;
     }
-    avg = sum_value/cnt;
+    avg = (double)sum_value/cnt;
     printf("%d %.1lf",sum_value,avg);
     return 0;
 }
